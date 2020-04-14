@@ -2,10 +2,10 @@ name: PR title validation
 on:
   pull_request:
     types: [opened, reopened, edited]
-  push:
-    branches-ignore:
-      - 'master'
-      - 'release/**'
+    #push:
+    #  branches-ignore:
+    #    - 'master'
+    #    - 'release/**'
 
 jobs:
   validate:
